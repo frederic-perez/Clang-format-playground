@@ -10,5 +10,12 @@ I simply do this loop:
 ### Reference material
 
 Some interesting URLs:
+
 - [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) documentation
 - [clangformat.com](https://clangformat.com/), an interactive guide and builder
+
+Material cited within `.clang-format`, sorted alphabetically by reference label:
+
+- [Koenig-1999] Andrew Koenig, Barbara E. Moo, _Ruminations on C++: a decade of programming insight and experience_, AT&T, 1999
+- [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
+- [Sutter-2001] Herb Sutter, _More Exceptional C++_, Addison-Wesley, 2001

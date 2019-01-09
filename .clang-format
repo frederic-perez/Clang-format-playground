@@ -1,9 +1,9 @@
 ---
 Language: Cpp
 # From github.com/frederic-perez/Clang-format-playground
-AccessModifierOffset: -2 # = -IndentWidth # B. Stroustrup, The C++ Programming Language, Fourth Edition, p.49; A. Koenig, B.E. Moo, Ruminations on C++, p. 1
+AccessModifierOffset: -2 # = -IndentWidth # [Stroustrup-2013, p. 49; A. Koenig-1999, p. 1]
 AlignTrailingComments: false
-IndentWidth: 2 # H. Sutter, More Exceptional C++, p. 18
+IndentWidth: 2 # [Sutter-2001, p. 18]
 MaxEmptyLinesToKeep: 1
 SpacesBeforeTrailingComments: 1
 ...
