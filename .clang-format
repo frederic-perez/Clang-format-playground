@@ -5,6 +5,7 @@ AccessModifierOffset: -2 # = -IndentWidth # [Stroustrup-2013, p. 49; A. Koenig-1
 AlignTrailingComments: false
 IndentWidth: 2 # [Sutter-2001, p. 18]
 MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
 SpacesBeforeTrailingComments: 1
 ...
 

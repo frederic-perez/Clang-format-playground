@@ -12,3 +12,13 @@ int give_me_a_zero() {
 
   return i;
 }
+
+namespace foo {
+
+namespace bar {
+
+constexpr int one = 1;
+
+} // namespace bar
+
+} // namespace foo
