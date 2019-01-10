@@ -11,7 +11,7 @@ I simply do this loop:
 
 Some interesting URLs:
 
-- [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) documentation
+- [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) documentation, and its [Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 - [clangformat.com](https://clangformat.com/), an interactive guide and builder
 
 Material cited within `.clang-format`, sorted alphabetically by reference label:
