@@ -17,5 +17,6 @@ Some interesting URLs:
 Material cited within `.clang-format`, sorted alphabetically by reference label:
 
 - [Koenig-1999] Andrew Koenig, Barbara E. Moo, _Ruminations on C++: a decade of programming insight and experience_, AT&T, 1999
+- [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
 - [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
 - [Sutter-2001] Herb Sutter, _More Exceptional C++_, Addison-Wesley, 2001
