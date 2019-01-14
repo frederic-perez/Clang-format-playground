@@ -23,3 +23,17 @@ namespace foo {
     } // namespace bar
 
 } // namespace
+
+void case_labels(size_t i) {
+    switch (i) {
+        case 0:
+        case 1:
+                do_something();
+                break;
+        case 2:
+                do_something_else();
+                break;
+        default:
+                break;
+        }
+}
