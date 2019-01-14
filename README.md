@@ -1,5 +1,9 @@
 ## Clang-format-playground
 
+### Why do we care for code formatting?
+
+Clang-format is a tool to automatically format C++ code (and other programming languages too). We favor its use (or the use of any other tool, for that matter), basically because of the "broken windows." Pragmatic Andrew Hunt Dave and Thomas used the broken windows metaphor about bad code, which leads to software rot: _When disorder increases in software, programmers call it "software rot."_ [Hunt-1999, Ch. 1, Tip 4] Here we tackle "just" formatting--see [Martin-2009, Ch. 5] for reasons about the importance of this subject.
+
 ### Evolving the configuration file `.clang-format`
 
 I simply do this loop:
@@ -14,8 +18,9 @@ Some interesting URLs:
 - [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) documentation, and its [Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 - [clangformat.com](https://clangformat.com/), an interactive guide and builder
 
-Material cited within `.clang-format`, sorted alphabetically by reference label:
+Material cited within `.clang-format` (or within this README file), sorted alphabetically by reference label:
 
+- [Hunt-1999] Andrew Hunt, David Thomas, _The Pragmatic Programmer: From Journeyman to Master_, Addison-Wesley, 1999
 - [Koenig-1999] Andrew Koenig, Barbara E. Moo, _Ruminations on C++: a decade of programming insight and experience_, AT&T, 1999
 - [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
 - [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
