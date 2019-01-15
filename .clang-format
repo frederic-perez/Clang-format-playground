@@ -6,7 +6,7 @@ AlignTrailingComments: false
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentWidth: 2 # [Sutter-2001, p. 18]
 MaxEmptyLinesToKeep: 1
-NamespaceIndentation: None
+NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 ...
 

@@ -20,6 +20,7 @@ Some interesting URLs:
 
 Material cited within `.clang-format` (or within this README file), sorted alphabetically by reference label:
 
+- [Dewhurst-2002] Stephen C. Dewhurst, _C++ Gotchas: Avoiding Common Problems in Coding and Design_, Addison-Wesley, 2002
 - [Hunt-1999] Andrew Hunt, David Thomas, _The Pragmatic Programmer: From Journeyman to Master_, Addison-Wesley, 1999
 - [Koenig-1999] Andrew Koenig, Barbara E. Moo, _Ruminations on C++: a decade of programming insight and experience_, AT&T, 1999
 - [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
