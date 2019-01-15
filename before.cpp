@@ -20,9 +20,9 @@ namespace foo {
 
         constexpr int one = 1;
 
-    } // namespace bar
+    } // namespace wrong name
 
-} // namespace
+}
 
 void case_labels(size_t i) {
     switch (i) {

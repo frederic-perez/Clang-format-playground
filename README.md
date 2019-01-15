@@ -26,3 +26,4 @@ Material cited within `.clang-format` (or within this README file), sorted alpha
 - [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
 - [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
 - [Sutter-2001] Herb Sutter, _More Exceptional C++_, Addison-Wesley, 2001
+- [Telles-2005] Matthew Telles, _C++ Timesaving Techniques For Dummies_, Wiley Publishing, Inc., 2005
