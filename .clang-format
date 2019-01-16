@@ -3,6 +3,24 @@ Language: Cpp
 # From github.com/frederic-perez/Clang-format-playground
 AccessModifierOffset: -2 # = -IndentWidth # [Stroustrup-2013, p. 49; A. Koenig-1999, p. 1]
 AlignTrailingComments: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false # [Dewhurst-2002, Gotcha #35]
+  # AfterControlStatement: 
+  # AfterEnum: 
+  # AfterFunction: 
+  # AfterNamespace: 
+  # AfterStruct: 
+  # AfterUnion: 
+  # AfterExternBlock: 
+  # BeforeCatch: 
+  # BeforeElse: 
+  # IndentBraces: 
+  # SplitEmptyFunction: 
+  # SplitEmptyRecord: 
+  # SplitEmptyNamespace: 
+
 FixNamespaceComments: true # [Telles-2005, p. 87]
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentWidth: 2 # [Sutter-2001, p. 18]

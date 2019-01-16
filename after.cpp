@@ -1,3 +1,7 @@
+class empty_one {};
+class empty_two {};
+class empty_three {};
+
 class Foo {
 public:
   void do_something(); // a 1st trailing comment
