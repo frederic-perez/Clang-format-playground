@@ -19,6 +19,24 @@ int give_me_a_zero() {
     const int i = 0; // two empty lines below
 
 
+    if (foo())
+    {
+    } else
+    {}
+
+    if (bar()) {
+        }
+    else
+        {
+        }
+    
+    for (int i = 0; i < 10; ++i)
+    {}
+
+    for (int i = 0; i < 10; ++i)
+        {
+        }
+
     return i;
 }
 
