@@ -11,6 +11,20 @@ private:
   void do_something_privately(); // a 4th trailing comment
 };
 
+enum class Color : uint8_t { red, green, blue };
+
+enum class Digit : uint8_t {
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight,
+  nine
+};
+
 int give_me_a_zero() {
   const int i = 0; // two empty lines below
 
