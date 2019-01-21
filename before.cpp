@@ -13,6 +13,10 @@ class Foo {
         void do_something_totally_different();// a 3rd trailing comment
     private:
         void do_something_privately();        // a 4th trailing comment
+        int get_one() const {
+            return 1;
+        }
+        int get_two() const { return 2; }
 };
 
 enum class Color : uint8_t

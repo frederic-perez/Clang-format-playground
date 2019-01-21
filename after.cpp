@@ -1,6 +1,9 @@
-class empty_one {};
-class empty_two {};
-class empty_three {};
+class empty_one {
+};
+class empty_two {
+};
+class empty_three {
+};
 
 class Foo {
 public:
@@ -9,6 +12,8 @@ public:
   void do_something_totally_different(); // a 3rd trailing comment
 private:
   void do_something_privately(); // a 4th trailing comment
+  int get_one() const { return 1; }
+  int get_two() const { return 2; }
 };
 
 enum class Color : uint8_t { red, green, blue };
@@ -25,7 +30,8 @@ enum class Digit : uint8_t {
   nine
 };
 
-int give_me_a_zero() {
+int give_me_a_zero()
+{
   const int i = 0; // two empty lines below
 
   if (foo()) {
@@ -55,7 +61,8 @@ constexpr int one = 1;
 
 } // namespace foo
 
-void case_labels(size_t i) {
+void case_labels(size_t i)
+{
   switch (i) {
   case 0:
   case 1:

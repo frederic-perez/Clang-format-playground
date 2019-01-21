@@ -9,7 +9,7 @@ BraceWrapping:
   AfterClass: false # [Dewhurst-2002, Gotcha #35]
   AfterControlStatement: false # if-else: [Koenig-1999, p. 16; Meyers-2014, p. 218], for: [Koenig-1999, p. 97; Stroustrup-2013, p. 208]
   AfterEnum: false # [Meyers-2014, p. 67; Stroustrup-2013, p. 50; Williams-2012, p. 375]
-  # AfterFunction: 
+  AfterFunction: true # [Koenig-1999, p. 2; Meyers-2014, p. 3; Stroustrup-2013, p. 39]
   # AfterNamespace: 
   # AfterStruct: 
   # AfterUnion: 
