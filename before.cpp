@@ -53,9 +53,11 @@ int give_me_a_zero() {
     return i;
 }
 
-namespace foo {
+namespace foo
+{
 
-    namespace bar {
+    namespace bar
+    {
 
         constexpr int one = 1;
 
