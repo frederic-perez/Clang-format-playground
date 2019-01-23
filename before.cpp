@@ -78,3 +78,10 @@ void case_labels(size_t i) {
                 break;
         }
 }
+
+struct foo
+{
+    int x;
+};
+
+struct bar { int x; };
