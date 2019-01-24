@@ -85,3 +85,14 @@ struct foo
 };
 
 struct bar { int x; };
+
+union foo
+{
+  int x;
+}
+
+union foo {
+  int x;
+}
+
+union foo { int x; }

@@ -12,7 +12,7 @@ BraceWrapping:
   AfterFunction: true # [Koenig-1999, p. 2; Meyers-2014, p. 3; Stroustrup-2013, p. 39]
   AfterNamespace: false # [Dewhurst-2002, Gotcha #22; Stroustrup-2013, p. 415; Cline-1998, FAQ 15.02] 
   AfterStruct: false # [Koenig-1999, p. 16; Stroustrup-2013, p. 1194]
-  # AfterUnion: 
+  AfterUnion: false # [Schildt-2003, p. 297; Stroustrup-2013, p. 216]
   # AfterExternBlock: 
   # BeforeCatch: 
   # BeforeElse: 
