@@ -13,7 +13,7 @@ BraceWrapping:
   AfterNamespace: false # [Dewhurst-2002, Gotcha #22; Stroustrup-2013, p. 415; Cline-1998, FAQ 15.02] 
   AfterStruct: false # [Koenig-1999, p. 16; Stroustrup-2013, p. 1194]
   AfterUnion: false # [Schildt-2003, p. 297; Stroustrup-2013, p. 216]
-  # AfterExternBlock: 
+  AfterExternBlock: true # `false` does not yield the results I'd expect
   # BeforeCatch: 
   # BeforeElse: 
   # IndentBraces: 

@@ -95,3 +95,13 @@ union foo {
 union foo {
   int x;
 }
+
+extern "C"
+{
+  int foo();
+}
+
+extern "C"
+{
+  int foo();
+}
