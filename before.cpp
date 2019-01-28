@@ -105,3 +105,17 @@ extern "C"
 extern "C" {
     int foo();
 }
+
+void foo {
+    try
+    {
+        foo();
+    }
+    catch (...) {
+    }
+
+    try {
+        foo();
+    } catch (...) {
+    }
+}
