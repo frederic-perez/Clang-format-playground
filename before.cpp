@@ -69,10 +69,10 @@ void case_labels(size_t i) {
     switch (i) {
         case 0:
         case 1:
-                do_something();
+                give_me_a_zero();
                 break;
         case 2:
-                do_something_else();
+                give_me_a_zero();
                 break;
         default:
                 break;
@@ -89,13 +89,13 @@ struct bar { int x; };
 union foo
 {
   int x;
-}
+};
 
 union foo {
   int x;
-}
+};
 
-union foo { int x; }
+union foo { int x; };
 
 extern "C"
 {
