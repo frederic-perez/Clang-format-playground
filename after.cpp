@@ -42,6 +42,14 @@ int give_me_a_zero()
   } else {
   }
 
+  if (foo()) {
+  } else {
+  }
+
+  if (foo()) {
+  } else {
+  }
+
   for (int i = 0; i < 10; ++i) {
   }
 
