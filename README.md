@@ -20,6 +20,7 @@ Some interesting URLs:
 
 Material cited within `.clang-format` (or within this README file), sorted alphabetically by reference label:
 
+- [Alexandrescu-2001] Andrei Alexandrescu, _Modern C++ Design: Generic Programming and Design Patterns Applied_, Addison Wesley, 2001
 - [Bulka-1999] Dov Bulka, David Mayhew, _Efficient C++ Performance Programming Techniques_, Addison Wesley, 1999
 - [Cline-1998] Marshall Cline, Greg Lomow, Mike Girou, _C++ FAQs, Second Edition_, Addison Wesley, 1998
 - [Dewhurst-2002] Stephen C. Dewhurst, _C++ Gotchas: Avoiding Common Problems in Coding and Design_, Addison-Wesley, 2002

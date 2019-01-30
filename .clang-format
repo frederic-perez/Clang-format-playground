@@ -16,7 +16,7 @@ BraceWrapping:
   AfterExternBlock: true # `false` does not yield the results I'd expect
   BeforeCatch: false # [Koenig-1999, p. 287; Schildt-2003, p. 349]
   BeforeElse: false # [Bulka-1999, p. 20; Koenig-1999, p. 16]
-  # IndentBraces: 
+  IndentBraces: false # [Alexandrescu-2001, p. 25; Schildt-2003, p. 61]
   # SplitEmptyFunction: 
   # SplitEmptyRecord: 
   # SplitEmptyNamespace: 
