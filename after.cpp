@@ -126,3 +126,12 @@ void foo
   } catch (...) {
   }
 }
+
+void f() {}
+
+void f() {}
+
+void f(
+
+)
+{}

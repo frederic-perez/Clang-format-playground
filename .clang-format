@@ -17,7 +17,7 @@ BraceWrapping:
   BeforeCatch: false # [Koenig-1999, p. 287; Schildt-2003, p. 349]
   BeforeElse: false # [Bulka-1999, p. 20; Koenig-1999, p. 16]
   IndentBraces: false # [Alexandrescu-2001, p. 25; Schildt-2003, p. 61]
-  # SplitEmptyFunction: 
+  SplitEmptyFunction: false # [Bulka-1999, p. 11; Meyers-2014, p. 100; Schildt-2003, p. 354]
   # SplitEmptyRecord: 
   # SplitEmptyNamespace: 
 
