@@ -1,9 +1,6 @@
-class empty_one {
-};
-class empty_two {
-};
-class empty_three {
-};
+class empty_one {};
+class empty_two {};
+class empty_three {};
 
 class Foo {
 public:
