@@ -66,6 +66,8 @@ constexpr int one = 1;
 
 } // namespace foo
 
+namespace baz {}
+
 void case_labels(size_t i)
 {
   switch (i) {
