@@ -148,3 +148,23 @@ void foo_bar()
           aaaaaaaaaaaaaaaaaaaa,
           aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
 }
+
+void f(int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+{}
+
+void f(int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+{}
+
+void f(int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+{}
+
+void f(int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaa,
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+{}
