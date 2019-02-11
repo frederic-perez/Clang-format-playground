@@ -181,3 +181,16 @@ f(int aaaaaaaaaaaaaaaaaaaa,
     int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
     {
     }
+
+LooooooooooongType loooooooooooooooooooooongVariable =
+    someLooooooooooooooooongFunction();
+
+LooooooooooongType loooooooooooooooooooooongVariable2
+    = someLooooooooooooooooongFunction();
+
+bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa +
+                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+          ==
+                 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa &&
+             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa >
+                 ccccccccccccccccccccccccccccccccccccccccc;

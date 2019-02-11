@@ -5,6 +5,7 @@ AccessModifierOffset: -2 # = -IndentWidth # [Stroustrup-2013, p. 49; A. Koenig-1
 AlignTrailingComments: false
 BinPackArguments: false
 BinPackParameters: false
+BreakBeforeBinaryOperators: NonAssignment
 
 BreakBeforeBraces: Custom
 BraceWrapping:
