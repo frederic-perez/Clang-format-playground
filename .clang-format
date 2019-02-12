@@ -24,6 +24,8 @@ BraceWrapping:
   SplitEmptyRecord: false # [Stroustrup-2013, p. 365; Milewski-2001, p. 46]
   SplitEmptyNamespace: false # Used only when AfterNamespace == false, which is not the case
 
+BreakBeforeTernaryOperators: true
+
 FixNamespaceComments: true # [Telles-2005, p. 87]
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentWidth: 2 # [Sutter-2001, p. 18]

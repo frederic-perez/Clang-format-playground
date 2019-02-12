@@ -180,3 +180,15 @@ bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                  == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
              && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     > ccccccccccccccccccccccccccccccccccccccccc;
+
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
+                     ? firstValue
+                     : SecondValueVeryVeryVeryVeryLong;
+
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
+                     ? firstValue
+                     : SecondValueVeryVeryVeryVeryLong;
+
+const bool foo = bar ? baz : baz + 1;
+const bool fooveryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
+    bar ? baz : baz + 1;
