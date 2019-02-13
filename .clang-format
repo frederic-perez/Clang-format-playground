@@ -25,6 +25,8 @@ BraceWrapping:
   SplitEmptyNamespace: false # Used only when AfterNamespace == false, which is not the case
 
 BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup-2014, p. 633]
 
 FixNamespaceComments: true # [Telles-2005, p. 87]
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]

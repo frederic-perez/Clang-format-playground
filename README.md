@@ -20,17 +20,18 @@ Some interesting URLs:
 
 Material cited within `.clang-format` (or within this README file), sorted alphabetically by reference label:
 
-- [Alexandrescu-2001] Andrei Alexandrescu, _Modern C++ Design: Generic Programming and Design Patterns Applied_, Addison Wesley, 2001
-- [Bulka-1999] Dov Bulka, David Mayhew, _Efficient C++ Performance Programming Techniques_, Addison Wesley, 1999
-- [Cline-1998] Marshall Cline, Greg Lomow, Mike Girou, _C++ FAQs, Second Edition_, Addison Wesley, 1998
+- [Alexandrescu-2001] Andrei Alexandrescu, _Modern C++ Design: Generic Programming and Design Patterns Applied_, Addison-Wesley, 2001
+- [Bulka-1999] Dov Bulka, David Mayhew, _Efficient C++ Performance Programming Techniques_, Addison-Wesley, 1999
+- [Cline-1998] Marshall Cline, Greg Lomow, Mike Girou, _C++ FAQs, Second Edition_, Addison-Wesley, 1998
 - [Dewhurst-2002] Stephen C. Dewhurst, _C++ Gotchas: Avoiding Common Problems in Coding and Design_, Addison-Wesley, 2002
 - [Hunt-1999] Andrew Hunt, David Thomas, _The Pragmatic Programmer: From Journeyman to Master_, Addison-Wesley, 1999
 - [Koenig-1999] Andrew Koenig, Barbara E. Moo, _Ruminations on C++: a decade of programming insight and experience_, AT&T, 1999
 - [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
 - [Meyers-2014] Scott Meyers, _Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14_, First Edition, O’Reilly, 2014
-- [Milewski-2001] Bartosz Milewski, _C++ In Action: Industrial Strength Programming Techniques_, Addison Wesley, 2001
+- [Milewski-2001] Bartosz Milewski, _C++ In Action: Industrial Strength Programming Techniques_, Addison-Wesley, 2001
 - [Schildt-2003] Herb Schildt, _C++: The Complete Reference, Fourth Edition_, McGraw-Hill, 2003
 - [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
+- [Stroustrup-2014] Bjarne Stroustrup, _Programming - Principles and Practice Using C++, Second Edition_, Addison-Wesley, 2014
 - [Sutter-2001] Herb Sutter, _More Exceptional C++_, Addison-Wesley, 2001
 - [Telles-2005] Matthew Telles, _C++ Timesaving Techniques For Dummies_, Wiley Publishing, Inc., 2005
 - [Williams-2012] Anthony Williams, _C++ Concurrency in Action: Practical Multithreading_, First Edition, Manning Publications, 2012
