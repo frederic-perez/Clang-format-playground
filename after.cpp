@@ -194,37 +194,37 @@ const bool fooveryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
     bar ? baz : baz + 1;
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
-    : initializer_1{days},
-      initializer_2{},
-      and_yet_another_initializer{},
-      and_a_final_initializer{}
+: initializer_1{days},
+  initializer_2{},
+  and_yet_another_initializer{},
+  and_a_final_initializer{}
 {}
 
 Ctor::Ctor(int days) : initializer_1{days}, initializer_2{} {}
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
-    : initializer_1{days}, initializer_2{}
+: initializer_1{days}, initializer_2{}
 {}
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
-    : initializer_1{days},
-      initializer_2{},
-      and_yet_another_initializer{},
-      and_a_final_initializer{}
+: initializer_1{days},
+  initializer_2{},
+  and_yet_another_initializer{},
+  and_a_final_initializer{}
 {}
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
-    : initializer_1{days},
-      initializer_2{},
-      and_yet_another_initializer{},
-      and_a_final_initializer{}
+: initializer_1{days},
+  initializer_2{},
+  and_yet_another_initializer{},
+  and_a_final_initializer{}
 {
   foo();
 }
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
-    : initializer1{days},
-      initializer2{},
-      and_yet_another_initializer{},
-      and_a_final_initializer{}
+: initializer1{days},
+  initializer2{},
+  and_yet_another_initializer{},
+  and_a_final_initializer{}
 {}
