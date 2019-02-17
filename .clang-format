@@ -38,9 +38,9 @@ MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 
+# DerivePointerAlignment: false + PointerAlignment: PAS_Left
+# SortIncludes: true # Try this with 2 groups of includes!
 # IndentPPDirectives: AfterHash
 # Cpp11BracedListStyle: true
 # KeepEmptyLinesAtTheStartOfBlocks: false
-# BreakBeforeBinaryOperators: BOS_NonAssignment
 ...
-
