@@ -230,3 +230,7 @@ ConstructorOfAClass::ConstructorOfAClass(int days) :
     }
 
 ConstructorOfAClass::ConstructorOfAClass(int days) : initializer1{days}, initializer2{}, and_yet_another_initializer{}, and_a_final_initializer{} {}
+
+int i =    // VeryVeryVeryVeryVeryLongComment
+    longFunction(    // Again a long comment
+    arg);

@@ -170,28 +170,28 @@ void f(int aaaaaaaaaaaaaaaaaaaa,
 {}
 
 LooooooooooongType loooooooooooooooooooooongVariable =
-    someLooooooooooooooooongFunction();
+  someLooooooooooooooooongFunction();
 
 LooooooooooongType loooooooooooooooooooooongVariable2 =
-    someLooooooooooooooooongFunction();
+  someLooooooooooooooooongFunction();
 
 bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                     + aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                 == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                 + aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+               == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
              && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    > ccccccccccccccccccccccccccccccccccccccccc;
+                  > ccccccccccccccccccccccccccccccccccccccccc;
 
 const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
-                     ? firstValue
-                     : SecondValueVeryVeryVeryVeryLong;
+                   ? firstValue
+                   : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
-                     ? firstValue
-                     : SecondValueVeryVeryVeryVeryLong;
+                   ? firstValue
+                   : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = bar ? baz : baz + 1;
 const bool fooveryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
-    bar ? baz : baz + 1;
+  bar ? baz : baz + 1;
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer_1{days},
@@ -228,3 +228,7 @@ ConstructorOfAClass::ConstructorOfAClass(int days)
   and_yet_another_initializer{},
   and_a_final_initializer{}
 {}
+
+int i = // VeryVeryVeryVeryVeryLongComment
+  longFunction( // Again a long comment
+    arg);
