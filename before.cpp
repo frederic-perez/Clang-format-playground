@@ -189,7 +189,7 @@ LooooooooooongType loooooooooooooooooooooongVariable2
     = someLooooooooooooooooongFunction();
 
 bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa +
-                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
           ==
                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa &&
              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa >
@@ -234,3 +234,14 @@ ConstructorOfAClass::ConstructorOfAClass(int days) : initializer1{days}, initial
 int i =    // VeryVeryVeryVeryVeryLongComment
     longFunction(    // Again a long comment
     arg);
+
+vector<int> x{1, 2, 3, 4};
+vector<T> x{{}, {}, {}, {}};
+f(MyMap[{composite, key}]);
+new int[3]{1, 2, 3};
+
+vector<int> x{ 1, 2, 3, 4 };
+vector<T> x{ {}, {}, {}, {} };
+f(MyMap[{ composite, key }]);
+new int[3]{ 1, 2, 3 };
+
