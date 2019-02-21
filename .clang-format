@@ -32,6 +32,7 @@ ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
 Cpp11BracedListStyle: true
 
 FixNamespaceComments: true # [Telles-2005, p. 87]
+IncludeBlocks: Preserve
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentWidth: 2 # [Sutter-2001, p. 18]
 MaxEmptyLinesToKeep: 1

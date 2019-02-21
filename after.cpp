@@ -1,3 +1,9 @@
+#include <cassert>
+#include <iostream>
+
+#include <lib/bar.h>
+#include <lib/foo.h>
+
 class empty_one {};
 class empty_two {};
 class empty_three {};
