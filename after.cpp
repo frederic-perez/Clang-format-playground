@@ -248,3 +248,10 @@ vector<int> x{1, 2, 3, 4};
 vector<T> x{{}, {}, {}, {}};
 f(MyMap[{composite, key}]);
 new int[3]{1, 2, 3};
+
+int* a;
+int* a;
+int* a;
+int& b = c;
+int& b = c;
+int& b = c;

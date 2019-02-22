@@ -30,6 +30,7 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup
 ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 160]
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
 Cpp11BracedListStyle: true
+DerivePointerAlignment: false
 
 FixNamespaceComments: true # [Telles-2005, p. 87]
 IncludeBlocks: Preserve
@@ -37,11 +38,10 @@ IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentWidth: 2 # [Sutter-2001, p. 18]
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
+PointerAlignment: Left # [Stroustrup-2013, p. 49]
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 
-# DerivePointerAlignment: false + PointerAlignment: PAS_Left
 # SortIncludes: true # Try this with 2 groups of includes!
 # IndentPPDirectives: AfterHash
-# Cpp11BracedListStyle: true
 # KeepEmptyLinesAtTheStartOfBlocks: false
 ...
