@@ -44,4 +44,5 @@ SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 # SortIncludes: true # Try this with 2 groups of includes!
 # IndentPPDirectives: AfterHash
 # KeepEmptyLinesAtTheStartOfBlocks: false
+# MaxEmptyLinesToKeep: 1
 ...
