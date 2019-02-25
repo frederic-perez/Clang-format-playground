@@ -1,10 +1,29 @@
+#include <numeric>
 #include <iostream>
-    #include <cassert>
-
+    #include <cmath>
+#include <algorithm>
+#include <array>
 
     #include <lib/foo.h>
 #include <lib/bar.h>
 
+#include "aux-raw-compiler-warnings-off++begin.h"
+// clang-format off
+
+  #include <boost/math/constants/constants.hpp>
+
+// clang-format on
+#include "aux-raw-compiler-warnings-off++end.h"
+
+#include "euclidean.h"
+#include "aux-spy.h"
+#include "aux-raw.h"
+
+#if FOO
+#if BAR
+#include <foo>
+#endif
+#endif
 
 class empty_one {
 };
