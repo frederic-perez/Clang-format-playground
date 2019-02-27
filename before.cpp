@@ -278,3 +278,8 @@ int *a;
 int &b = c;
 int& b = c;
 int & b = c;
+
+static_cast< int >(arg);
+static_cast<int>(arg);
+std::function< void(int) > fct;
+std::function< void(int) > fct;

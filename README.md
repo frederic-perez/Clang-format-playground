@@ -29,6 +29,7 @@ Material cited within `.clang-format` (or within this README file), sorted alpha
 - [Martin-2009] Robert C. Martin, _Clean Code - A Handbook of Agile Software Craftsmanship_, Prentice Hall, 2009
 - [Meyers-2014] Scott Meyers, _Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14_, First Edition, O’Reilly, 2014
 - [Milewski-2001] Bartosz Milewski, _C++ In Action: Industrial Strength Programming Techniques_, Addison-Wesley, 2001
+- [Pohl-2002] Ira Pohl, _C++ by Dissection_, Addison-Wesley, 2002
 - [Schildt-2003] Herb Schildt, _C++: The Complete Reference, Fourth Edition_, McGraw-Hill, 2003
 - [Stroustrup-2013] Bjarne Stroustrup, _The C++ Programming Language, Fourth Edition_, Addison-Wesley, 2013
 - [Stroustrup-2014] Bjarne Stroustrup, _Programming - Principles and Practice Using C++, Second Edition_, Addison-Wesley, 2014
