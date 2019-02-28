@@ -283,3 +283,10 @@ static_cast< int >(arg);
 static_cast<int>(arg);
 std::function< void(int) > fct;
 std::function< void(int) > fct;
+
+if (foo) {
+
+    bar();
+} else {
+    baz();
+}

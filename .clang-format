@@ -36,13 +36,11 @@ IncludeBlocks: Preserve
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentPPDirectives: AfterHash
 IndentWidth: 2 # [Sutter-2001, p. 18]
+KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
 PointerAlignment: Left # [Stroustrup-2013, p. 49]
 SortIncludes: true
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
-
-# KeepEmptyLinesAtTheStartOfBlocks: false
-# MaxEmptyLinesToKeep: 1
 ...
