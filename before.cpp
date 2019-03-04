@@ -53,7 +53,7 @@ enum class Color : uint8_t
     blue
 };
 
-enum class Digit : uint8_t { one, two, three, four, five, six, seven, eight, nine };
+enum class Digit : uint8_t { one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen };
 
 int give_me_a_zero() {
     const int i = 0; // two empty lines below
@@ -180,62 +180,63 @@ f(
 void foo_bar() {
     foo_bar(aaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaa);
     foo_bar(aaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaa,
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
     foo_bar(aaaaaaaaaaaaaaaaaaaa,
         aaaaaaaaaaaaaaaaaaaa,
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
     foo_bar(
         aaaaaaaaaaaaaaaaaaaa,
             aaaaaaaaaaaaaaaaaaaa,
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
 }
 
 void f(int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
 
 void f(int aaaaaaaaaaaaaaaaaaaa,
        int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) {}
 
 void f(
     int aaaaaaaaaaaaaaaaaaaa,
-    int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+    int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
     {
     }
 
 void
 f(int aaaaaaaaaaaaaaaaaaaa,
-    int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+    int aaaaaaaaaaaaaaaaaaaa, int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
     {
     }
 
-LooooooooooongType loooooooooooooooooooooongVariable =
-    someLooooooooooooooooongFunction();
+LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable =
+    someLoooooooooooooooooooooooooooooooooongFunction();
 
-LooooooooooongType loooooooooooooooooooooongVariable2
-    = someLooooooooooooooooongFunction();
+LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable2
+    = someLoooooooooooooooooooooooooooooooooongFunction();
 
-bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa +
+bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa +
                      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
           ==
-                 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa &&
-             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa >
+                 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa &&
+             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa >
                  ccccccccccccccccccccccccccccccccccccccccc;
 
-const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
     ? firstValue
     : SecondValueVeryVeryVeryVeryLong;
 
-const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription ?
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription ?
     firstValue : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = bar ? baz : baz + 1;
-const bool fooveryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant = bar ?
+const bool fooVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant = bar ?
     baz : baz + 1;
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
     : initializer_1{days}, initializer_2{},
       and_yet_another_initializer{},
+      and_a_second_to_last_initializer{},
       and_a_final_initializer{}
     {}
 
@@ -245,18 +246,19 @@ ConstructorOfAClass::ConstructorOfAClass(int days) : initializer_1{days} , initi
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
     : initializer_1{days} , initializer_2{}
-    , and_yet_another_initializer{}, and_a_final_initializer{}
+    , and_yet_another_initializer{}, and_a_second_to_last_initializer{}, and_a_final_initializer{}
     {}
 
 ConstructorOfAClass::ConstructorOfAClass(int days) :
     initializer_1{days},
     initializer_2{},
     and_yet_another_initializer{},
+    and_a_second_to_last_initializer{},
     and_a_final_initializer{} {
         foo();
     }
 
-ConstructorOfAClass::ConstructorOfAClass(int days) : initializer1{days}, initializer2{}, and_yet_another_initializer{}, and_a_final_initializer{} {}
+ConstructorOfAClass::ConstructorOfAClass(int days) : initializer1{days}, initializer2{}, and_yet_another_initializer{}, and_a_second_to_last_initializer{}, and_a_final_initializer{} {}
 
 int i =    // VeryVeryVeryVeryVeryLongComment
     longFunction(    // Again a long comment

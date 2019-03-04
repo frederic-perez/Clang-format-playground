@@ -26,6 +26,7 @@ BraceWrapping:
 
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeColon
+ColumnLimit: 120 # [Martin-2009, p.86]
 ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup-2014, p. 633]
 ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 160]
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
@@ -43,6 +44,4 @@ PointerAlignment: Left # [Stroustrup-2013, p. 49]
 SortIncludes: true
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
-
-# ColumnLimit: 120
 ...

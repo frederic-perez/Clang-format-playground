@@ -51,7 +51,12 @@ enum class Digit : uint8_t {
   six,
   seven,
   eight,
-  nine
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+  fourteen
 };
 
 int give_me_a_zero()
@@ -167,76 +172,76 @@ void foo_bar()
   foo_bar(aaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaa);
   foo_bar(aaaaaaaaaaaaaaaaaaaa,
           aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
   foo_bar(aaaaaaaaaaaaaaaaaaaa,
           aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
   foo_bar(aaaaaaaaaaaaaaaaaaaa,
           aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
 }
 
 void f(int aaaaaaaaaaaaaaaaaaaa,
        int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
 void f(int aaaaaaaaaaaaaaaaaaaa,
        int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
 void f(int aaaaaaaaaaaaaaaaaaaa,
        int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
 void f(int aaaaaaaaaaaaaaaaaaaa,
        int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-LooooooooooongType loooooooooooooooooooooongVariable =
-  someLooooooooooooooooongFunction();
+LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable =
+  someLoooooooooooooooooooooooooooooooooongFunction();
 
-LooooooooooongType loooooooooooooooooooooongVariable2 =
-  someLooooooooooooooooongFunction();
+LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable2 =
+  someLoooooooooooooooooooooooooooooooooongFunction();
 
-bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                  + aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-               == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-             && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+               == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+             && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                   > ccccccccccccccccccccccccccccccccccccccccc;
 
-const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
                    ? firstValue
                    : SecondValueVeryVeryVeryVeryLong;
 
-const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
+const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
                    ? firstValue
                    : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = bar ? baz : baz + 1;
-const bool fooveryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
+const bool fooVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
   bar ? baz : baz + 1;
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer_1{days},
   initializer_2{},
   and_yet_another_initializer{},
+  and_a_second_to_last_initializer{},
   and_a_final_initializer{}
 {}
 
 Ctor::Ctor(int days) : initializer_1{days}, initializer_2{} {}
 
-ConstructorOfAClass::ConstructorOfAClass(int days)
-: initializer_1{days}, initializer_2{}
-{}
+ConstructorOfAClass::ConstructorOfAClass(int days) : initializer_1{days}, initializer_2{} {}
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer_1{days},
   initializer_2{},
   and_yet_another_initializer{},
+  and_a_second_to_last_initializer{},
   and_a_final_initializer{}
 {}
 
@@ -244,6 +249,7 @@ ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer_1{days},
   initializer_2{},
   and_yet_another_initializer{},
+  and_a_second_to_last_initializer{},
   and_a_final_initializer{}
 {
   foo();
@@ -253,6 +259,7 @@ ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer1{days},
   initializer2{},
   and_yet_another_initializer{},
+  and_a_second_to_last_initializer{},
   and_a_final_initializer{}
 {}
 
