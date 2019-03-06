@@ -170,36 +170,58 @@ void f(
 void foo_bar()
 {
   foo_bar(aaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaa);
-  foo_bar(aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
-  foo_bar(aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
-  foo_bar(aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaa,
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+  foo_bar(
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+  foo_bar(
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
+  foo_bar(
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaa,
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
 }
 
-void f(int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+void f(
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-void f(int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+void f(
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-void f(int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+void f(
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-void f(int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaa,
-       int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+void f(
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
+
+some_long_function(
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1,
+  aaaaaaaaaaaaaaaaaaaa_argument_2,
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
+
+some_long_function(
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1,
+  aaaaaaaaaaaaaaaaaaaa_argument_2,
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
+
+some_long_function(
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1,
+  aaaaaaaaaaaaaaaaaaaa_argument_2,
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
 
 LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable =
   someLoooooooooooooooooooooooooooooooooongFunction();

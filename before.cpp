@@ -209,6 +209,16 @@ f(int aaaaaaaaaaaaaaaaaaaa,
     {
     }
 
+
+some_long_function(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1, aaaaaaaaaaaaaaaaaaaa_argument_2, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
+
+some_long_function(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1,
+    aaaaaaaaaaaaaaaaaaaa_argument_2, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
+
+some_long_function(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_1,
+    aaaaaaaaaaaaaaaaaaaa_argument_2,
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_argument_3);
+
 LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable =
     someLoooooooooooooooooooooooooooooooooongFunction();
 
