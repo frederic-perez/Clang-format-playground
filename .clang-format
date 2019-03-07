@@ -3,6 +3,7 @@ Language: Cpp
 # From github.com/frederic-perez/Clang-format-playground
 AccessModifierOffset: -2 # = -IndentWidth # [Stroustrup-2013, p. 49; A. Koenig-1999, p. 1]
 AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: false
 AlignTrailingComments: false
 BinPackArguments: false
 BinPackParameters: false

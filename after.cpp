@@ -306,6 +306,14 @@ int& b = c;
 int& b = c;
 int& b = c;
 
+int foo = c;
+int foobar = c;
+int foobarbaz = c;
+
+int foo = c;
+int foobar = c;
+int foobarbaz = c;
+
 static_cast<int>(arg);
 static_cast<int>(arg);
 std::function<void(int)> fct;
