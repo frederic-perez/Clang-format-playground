@@ -299,6 +299,14 @@ int foo =       c;
 int foobar =    c;
 int foobarbaz = c;
 
+int         aaaa = 12;
+float       b = 23;
+std::string ccc = 23;
+
+int    aaaa = 12;
+float    b = 23;
+std::string ccc = 23;
+
 static_cast< int >(arg);
 static_cast<int>(arg);
 std::function< void(int) > fct;
