@@ -25,6 +25,11 @@
 #  endif
 #endif
 
+#define A \
+  int aaaa; \
+  int b; \
+  int dddddddddd;
+
 class empty_one {};
 class empty_two {};
 class empty_three {};
