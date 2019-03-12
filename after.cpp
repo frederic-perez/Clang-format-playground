@@ -235,18 +235,18 @@ LooooooooooongType looooooooooooooooooooooooooooooooooooooooooongVariable2 =
   someLoooooooooooooooooooooooooooooooooongFunction();
 
 bool value = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                 + aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-               == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-             && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  > ccccccccccccccccccccccccccccccccccccccccc;
+      + aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    == aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  && aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    > ccccccccccccccccccccccccccccccccccccccccc;
 
 const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
-                   ? firstValue
-                   : SecondValueVeryVeryVeryVeryLong;
+  ? firstValue
+  : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongDescription
-                   ? firstValue
-                   : SecondValueVeryVeryVeryVeryLong;
+  ? firstValue
+  : SecondValueVeryVeryVeryVeryLong;
 
 const bool foo = bar ? baz : baz + 1;
 const bool fooVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongConstant =
@@ -337,3 +337,12 @@ if (foo) {
 } else {
   baz();
 }
+
+int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+  + cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+  + cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+  + cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;

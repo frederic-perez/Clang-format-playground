@@ -323,3 +323,13 @@ if (foo) {
 } else {
     baz();
 }
+
+int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb +
+          cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb +
+    cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+int aaa =
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb +
+    cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;

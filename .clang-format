@@ -6,6 +6,7 @@ AlignAfterOpenBracket: AlwaysBreak
 AlignConsecutiveAssignments: false
 AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: DontAlign
+AlignOperands: false
 AlignTrailingComments: false
 BinPackArguments: false
 BinPackParameters: false
@@ -48,6 +49,4 @@ PointerAlignment: Left # [Stroustrup-2013, p. 49]
 SortIncludes: true
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
-
-# AlignOperands: false
 ...
