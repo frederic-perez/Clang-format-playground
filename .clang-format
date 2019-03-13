@@ -8,6 +8,7 @@ AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: DontAlign
 AlignOperands: false
 AlignTrailingComments: false
+AllowAllParametersOfDeclarationOnNextLine: true
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
