@@ -9,6 +9,7 @@ AlignEscapedNewlines: DontAlign
 AlignOperands: false
 AlignTrailingComments: false
 AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment

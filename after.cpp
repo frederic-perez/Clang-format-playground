@@ -346,3 +346,11 @@ int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 int aaa = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
   + cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+if (a) {
+  return;
+}
+
+if (a) {
+  return;
+}
