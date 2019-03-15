@@ -10,6 +10,7 @@ AlignOperands: false
 AlignTrailingComments: false
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
+AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment

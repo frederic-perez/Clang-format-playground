@@ -109,14 +109,9 @@ void case_labels(size_t i)
 {
   switch (i) {
   case 0:
-  case 1:
-    give_me_a_zero();
-    break;
-  case 2:
-    give_me_a_zero();
-    break;
-  default:
-    break;
+  case 1: give_me_a_zero(); break;
+  case 2: give_me_a_zero(); break;
+  default: break;
   }
 }
 
@@ -353,4 +348,9 @@ if (a) {
 
 if (a) {
   return;
+}
+
+switch (a) {
+case 1: x = 1; break;
+case 2: return;
 }
