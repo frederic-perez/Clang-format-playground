@@ -158,9 +158,11 @@ void foo
   }
 }
 
-void f() {}
+void f()
+{}
 
-void f() {}
+void f()
+{}
 
 void f(
 
@@ -255,9 +257,11 @@ ConstructorOfAClass::ConstructorOfAClass(int days)
   and_a_final_initializer{}
 {}
 
-Ctor::Ctor(int days) : initializer_1{days}, initializer_2{} {}
+Ctor::Ctor(int days) : initializer_1{days}, initializer_2{}
+{}
 
-ConstructorOfAClass::ConstructorOfAClass(int days) : initializer_1{days}, initializer_2{} {}
+ConstructorOfAClass::ConstructorOfAClass(int days) : initializer_1{days}, initializer_2{}
+{}
 
 ConstructorOfAClass::ConstructorOfAClass(int days)
 : initializer_1{days},
@@ -354,3 +358,13 @@ switch (a) {
 case 1: x = 1; break;
 case 2: return;
 }
+
+class Foo {
+  void f() { foo(); }
+};
+void f()
+{
+  foo();
+}
+void f()
+{}

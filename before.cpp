@@ -347,3 +347,7 @@ switch (a)
         x = 1; break;
     case 2: return;
 }
+
+class Foo { void f() { foo(); } };
+void f() { foo(); }
+void f() {}
