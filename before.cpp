@@ -351,3 +351,6 @@ switch (a)
 class Foo { void f() { foo(); } };
 void f() { foo(); }
 void f() {}
+
+if (a) return;
+else { return; }

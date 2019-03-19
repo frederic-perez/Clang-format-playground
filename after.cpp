@@ -368,3 +368,9 @@ void f()
 }
 void f()
 {}
+
+if (a)
+  return;
+else {
+  return;
+}
