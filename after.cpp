@@ -374,3 +374,6 @@ if (a)
 else {
   return;
 }
+
+while (true)
+  continue;

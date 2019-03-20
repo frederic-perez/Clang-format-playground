@@ -354,3 +354,5 @@ void f() {}
 
 if (a) return;
 else { return; }
+
+while (true) continue;
