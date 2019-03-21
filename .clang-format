@@ -15,6 +15,7 @@ AllowShortFunctionsOnASingleLine: InlineOnly
 AllowShortIfStatementsOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 # AlwaysBreakAfterDefinitionReturnType: ... # Unused on purpose because it is a deprecated option
+AlwaysBreakAfterReturnType: None # `None`: Break after return type automatically.
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment

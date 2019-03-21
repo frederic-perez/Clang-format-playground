@@ -356,3 +356,9 @@ if (a) return;
 else { return; }
 
 while (true) continue;
+
+class A {
+    int f() { return 0; }
+};
+
+int f() { return 1; }
