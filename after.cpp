@@ -386,3 +386,11 @@ int f()
 {
   return 1;
 }
+
+aaaa =
+  "bbbb"
+  "cccc";
+
+aaaa =
+  "bbbb"
+  "cccc";
