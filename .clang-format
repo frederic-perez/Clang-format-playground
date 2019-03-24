@@ -19,6 +19,8 @@ AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 AlwaysBreakBeforeMultilineStrings: true
 # AlwaysBreakTemplateDeclarations: Yes
 # BreakInheritanceList: BeforeColon
+# BreakStringLiterals: true
+# CommentPragmas: '^ IWYU pragma:'
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
