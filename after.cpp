@@ -64,7 +64,8 @@ enum class Digit : uint8_t {
   fourteen
 };
 
-int give_me_a_zero()
+int
+give_me_a_zero()
 {
   const int i = 0; // two empty lines below
 
@@ -105,7 +106,8 @@ constexpr int one = 1;
 
 namespace baz {}
 
-void case_labels(size_t i)
+void
+case_labels(size_t i)
 {
   switch (i) {
   case 0:
@@ -158,18 +160,22 @@ void foo
   }
 }
 
-void f()
+void
+f()
 {}
 
-void f()
+void
+f()
 {}
 
-void f(
+void
+f(
 
 )
 {}
 
-void foo_bar()
+void
+foo_bar()
 {
   foo_bar(aaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaa);
   foo_bar(
@@ -186,26 +192,26 @@ void foo_bar()
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
 }
 
-void f(
-  int aaaaaaaaaaaaaaaaaaaa,
-  int aaaaaaaaaaaaaaaaaaaa,
-  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
-{}
-
-void f(
-  int aaaaaaaaaaaaaaaaaaaa,
+void
+f(int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-void f(
-  int aaaaaaaaaaaaaaaaaaaa,
+void
+f(int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
 
-void f(
+void
+f(int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaa,
+  int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+{}
+
+void
+f(int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaa,
   int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 {}
@@ -362,11 +368,13 @@ case 2: return;
 class Foo {
   void f() { foo(); }
 };
-void f()
+void
+f()
 {
   foo();
 }
-void f()
+void
+f()
 {}
 
 if (a)
@@ -382,7 +390,8 @@ class A {
   int f() { return 0; }
 };
 
-int f()
+int
+f()
 {
   return 1;
 }
