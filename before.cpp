@@ -369,3 +369,10 @@ aaaa =
 
 aaaa = "bbbb"
     "cccc";
+
+template <typename T> T foo() {}
+
+template <class T> T bar() {}
+
+template <typename T> T foo(int aaaaaaaaaaaaaaaaaaaaa,
+                            int bbbbbbbbbbbbbbbbbbbbb) {}
