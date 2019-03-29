@@ -19,7 +19,7 @@ AlwaysBreakAfterReturnType: TopLevelDefinitions
 AlwaysBreakBeforeMultilineStrings: true
 AlwaysBreakTemplateDeclarations: Yes # [Telles-2005, p. 187]
 BreakInheritanceList: BeforeColon # Doesn't seem to have any effect (?!)
-# BreakStringLiterals: true
+BreakStringLiterals: true
 # CommentPragmas: '^ IWYU pragma:'
 BinPackArguments: false
 BinPackParameters: false
