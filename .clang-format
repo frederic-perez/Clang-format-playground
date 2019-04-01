@@ -18,33 +18,31 @@ AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 AlwaysBreakAfterReturnType: TopLevelDefinitions
 AlwaysBreakBeforeMultilineStrings: true
 AlwaysBreakTemplateDeclarations: Yes # [Telles-2005, p. 187]
-BreakBeforeBinaryOperators: NonAssignment
-BreakInheritanceList: BeforeColon # Doesn't seem to have any effect (?!)
-BreakStringLiterals: true
-# CommentPragmas: '^ IWYU pragma:'
 BinPackArguments: false
 BinPackParameters: false
-
-BreakBeforeBraces: Custom
-BraceWrapping:
+BraceWrapping: # This is tied to "BreakBeforeBraces: Custom"
   AfterClass: false # [Dewhurst-2002, Gotcha #35]
   AfterControlStatement: false # if-else: [Koenig-1999, p. 16; Meyers-2014, p. 218], for: [Koenig-1999, p. 97; Stroustrup-2013, p. 208]
   AfterEnum: false # [Meyers-2014, p. 67; Stroustrup-2013, p. 50; Williams-2012, p. 375]
+  AfterExternBlock: true # `false` does not yield the results I'd expect
   AfterFunction: true # [Koenig-1999, p. 2; Meyers-2014, p. 3; Stroustrup-2013, p. 39]
   AfterNamespace: false # [Dewhurst-2002, Gotcha #22; Stroustrup-2013, p. 415; Cline-1998, FAQ 15.02] 
   AfterStruct: false # [Koenig-1999, p. 16; Stroustrup-2013, p. 1194]
   AfterUnion: false # [Schildt-2003, p. 297; Stroustrup-2013, p. 216]
-  AfterExternBlock: true # `false` does not yield the results I'd expect
   BeforeCatch: false # [Koenig-1999, p. 287; Schildt-2003, p. 349]
   BeforeElse: false # [Bulka-1999, p. 20; Koenig-1999, p. 16]
   IndentBraces: false # [Alexandrescu-2001, p. 25; Schildt-2003, p. 61]
   SplitEmptyFunction: false # [Bulka-1999, p. 11; Meyers-2014, p. 100; Schildt-2003, p. 354]
-  SplitEmptyRecord: false # [Stroustrup-2013, p. 365; Milewski-2001, p. 46]
   SplitEmptyNamespace: false # Used only when AfterNamespace == false, which is not the case
-
+  SplitEmptyRecord: false # [Stroustrup-2013, p. 365; Milewski-2001, p. 46]
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon # Doesn't seem to have any effect (?!)
+BreakStringLiterals: true
 ColumnLimit: 120 # [Martin-2009, p.86]
+# CommentPragmas: '^ IWYU pragma:'
 ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup-2014, p. 633]
 ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 160]
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
