@@ -8,6 +8,8 @@ AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: DontAlign
 AlignOperands: false
 AlignTrailingComments: false
+# AllowAllArgumentsOnNextLine: true
+# AllowAllConstructorInitializersOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
