@@ -15,6 +15,7 @@ AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
 AllowShortFunctionsOnASingleLine: InlineOnly
 AllowShortIfStatementsOnASingleLine: false # Ease debugging (setting breakpoints)
+# AllowShortLambdasOnASingleLine: Inline
 AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 # AlwaysBreakAfterDefinitionReturnType: ... # Unused on purpose because it is a deprecated option
 AlwaysBreakAfterReturnType: TopLevelDefinitions
@@ -45,6 +46,7 @@ BreakInheritanceList: BeforeColon # Doesn't seem to have any effect (?!)
 BreakStringLiterals: true
 ColumnLimit: 120 # [Martin-2009, p.86]
 # CommentPragmas: '^ IWYU pragma:'
+# CompactNamespaces: false
 ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup-2014, p. 633]
 ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 160]
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
