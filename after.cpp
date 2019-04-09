@@ -434,3 +434,9 @@ callFunction(a, b, c, d);
 callFunction(a, b, c, d);
 
 callFunction(a, b, c, d);
+
+MyClass::MyClass() : member0(0), member1(2)
+{}
+
+MyClass::MyClass() : member0(0), member1(2)
+{}

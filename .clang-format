@@ -8,8 +8,8 @@ AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: DontAlign
 AlignOperands: false
 AlignTrailingComments: false
-# AllowAllArgumentsOnNextLine: true # clang-format version 8.0.0 > error: unknown key 'AllowAllArgumentsOnNextLine'
-# AllowAllConstructorInitializersOnNextLine: false
+# AllowAllArgumentsOnNextLine: true # clang-format version 8.0.0 > error: unknown key
+# AllowAllConstructorInitializersOnNextLine: false # clang-format version 8.0.0 > error: unknown key
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
