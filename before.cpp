@@ -113,6 +113,9 @@ namespace baz
 
     }
 
+namespace Foo { namespace Bar {
+}}
+
 void case_labels(size_t i) {
     switch (i) {
         case 0:

@@ -46,7 +46,7 @@ BreakInheritanceList: BeforeColon # Doesn't seem to have any effect (?!)
 BreakStringLiterals: true
 ColumnLimit: 120 # [Martin-2009, p.86]
 # CommentPragmas: '^ IWYU pragma:'
-# CompactNamespaces: false
+CompactNamespaces: false
 ConstructorInitializerAllOnOneLineOrOnePerLine: true # For one line: [Stroustrup-2014, p. 633]
 ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 160]
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]

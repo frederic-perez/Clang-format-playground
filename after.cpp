@@ -106,6 +106,10 @@ constexpr int one = 1;
 
 namespace baz {}
 
+namespace Foo {
+namespace Bar {}
+} // namespace Foo
+
 void
 case_labels(size_t i)
 {
