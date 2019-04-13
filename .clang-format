@@ -52,6 +52,7 @@ ConstructorInitializerIndentWidth: 0 # [Cline-1998, FAQ 22.01; Meyers-2014, p. 1
 ContinuationIndentWidth: 2 # [Meyers-2014, p. 23]
 Cpp11BracedListStyle: true
 DerivePointerAlignment: false
+DisableFormat: false
 FixNamespaceComments: true # [Telles-2005, p. 87]
 IncludeBlocks: Preserve
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
