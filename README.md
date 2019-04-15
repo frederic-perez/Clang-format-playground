@@ -1,17 +1,18 @@
-## Clang-format-playground
+# Clang-format-playground
 
-### Why do we care for code formatting?
+## Why do we care for code formatting?
 
 Clang-format is a tool to automatically format C++ code (and other programming languages too). We favor its use (or the use of any other tool, for that matter), basically because of the "broken windows." Pragmatic Andrew Hunt Dave and Thomas used the broken windows metaphor about bad code, which leads to software rot: _When disorder increases in software, programmers call it "software rot."_ [Hunt-1999, Ch. 1, Tip 4] Here we tackle "just" formatting--see [Martin-2009, Ch. 5] for reasons about the importance of this subject.
 
-### Evolving the configuration file `.clang-format`
+## Evolving the configuration file `.clang-format`
 
 I simply do this loop:
+
 - Edit `.clang-format` to revise or extend it
 - Use it: `$ clang-format.exe before.cpp >after.cpp`
 - Verify the expected differences between `before.cpp` and `after.cpp` (for example, with `p4merge`)
 
-### Reference material
+## Reference material
 
 Some interesting URLs:
 
