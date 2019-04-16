@@ -15,7 +15,7 @@ AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
 AllowShortFunctionsOnASingleLine: InlineOnly
 AllowShortIfStatementsOnASingleLine: false # Ease debugging (setting breakpoints)
-# AllowShortLambdasOnASingleLine: Inline
+# AllowShortLambdasOnASingleLine: Empty # clang-format version 8.0.0 > error: unknown
 AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 # AlwaysBreakAfterDefinitionReturnType: ... # Unused on purpose because it is a deprecated option
 AlwaysBreakAfterReturnType: TopLevelDefinitions
