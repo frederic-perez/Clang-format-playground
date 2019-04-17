@@ -54,6 +54,7 @@ Cpp11BracedListStyle: true
 DerivePointerAlignment: false
 DisableFormat: false
 FixNamespaceComments: true # [Telles-2005, p. 87]
+ForEachMacros: ['foreach', 'Q_FOREACH', 'BOOST_FOREACH']
 IncludeBlocks: Preserve
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentPPDirectives: AfterHash

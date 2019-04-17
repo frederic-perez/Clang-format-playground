@@ -444,3 +444,15 @@ MyClass::MyClass() : member0(0), member1(2)
 
 MyClass::MyClass() : member0(0), member1(2)
 {}
+
+foreach (auto i : {1, 2, 3}) {
+  std::cout << i;
+}
+
+Q_FOREACH (x, cont) {
+  std::cout << x;
+}
+
+BOOST_FOREACH (auto i, {1, 2, 3}) {
+  std::cout << i;
+}
