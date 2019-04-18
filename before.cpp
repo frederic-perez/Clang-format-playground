@@ -424,3 +424,5 @@ BOOST_FOREACH(auto i, {1, 2, 3})
 {
     std::cout << i;
 }
+
+LooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongReturnType LoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongFunctionDeclaration();
