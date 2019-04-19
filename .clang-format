@@ -56,6 +56,13 @@ DisableFormat: false
 FixNamespaceComments: true # [Telles-2005, p. 87]
 ForEachMacros: ['foreach', 'Q_FOREACH', 'BOOST_FOREACH']
 IncludeBlocks: Preserve
+IncludeCategories: 
+  - Regex: '^"(llvm|llvm-c|clang|clang-c)/'
+    Priority: 2
+  - Regex: '^(<|"(gtest|gmock|isl|json)/)'
+    Priority: 3
+  - Regex: '.*'
+    Priority: 1
 IndentCaseLabels: false # [Stroustrup-2013, p. 44]
 IndentPPDirectives: AfterHash
 IndentWidth: 2 # [Sutter-2001, p. 18]
