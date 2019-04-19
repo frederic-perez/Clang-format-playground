@@ -68,6 +68,8 @@ IndentPPDirectives: AfterHash
 IndentWidth: 2 # [Sutter-2001, p. 18]
 IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
+MacroBlockBegin: ''
+MacroBlockEnd: ''
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
 PointerAlignment: Left # [Stroustrup-2013, p. 49]
