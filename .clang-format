@@ -72,6 +72,14 @@ MacroBlockBegin: ''
 MacroBlockEnd: ''
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None # [Dewhurst-2002, Gotcha #22]
+# PenaltyBreakAssignment: 2
+# PenaltyBreakBeforeFirstCallParameter: 19
+# PenaltyBreakComment: 300
+# PenaltyBreakFirstLessLess: 120
+# PenaltyBreakString: 1000
+# PenaltyBreakTemplateDeclaration: 10
+# PenaltyExcessCharacter: 1000000
+# PenaltyReturnTypeOnItsOwnLine: 60
 PointerAlignment: Left # [Stroustrup-2013, p. 49]
 SortIncludes: true
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
