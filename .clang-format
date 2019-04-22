@@ -87,4 +87,18 @@ SortIncludes: true
 # SpaceAfterCStyleCast: false
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
+# SpaceAfterTemplateKeyword: true
+# SpaceBeforeAssignmentOperators: true
+# SpaceBeforeCpp11BracedList: false
+# SpaceBeforeCtorInitializerColon: true
+# SpaceBeforeInheritanceColon: true
+# SpaceBeforeParens: ControlStatements
+# SpaceBeforeRangeBasedForLoopColon: true
+# SpaceInEmptyParentheses: false
+# SpacesBeforeTrailingComments: 1
+# SpacesInAngles:  false
+# SpacesInContainerLiterals: true
+# SpacesInCStyleCastParentheses: false
+# SpacesInParentheses: false
+# SpacesInSquareBrackets: false
 ...
