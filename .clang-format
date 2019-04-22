@@ -101,4 +101,7 @@ SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, 
 # SpacesInCStyleCastParentheses: false
 # SpacesInParentheses: false
 # SpacesInSquareBrackets: false
+# Standard: Cpp11
+# TabWidth: 2 # We don't need this because we set UseTab to Never
+# UseTab: Never
 ...
