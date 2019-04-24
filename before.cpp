@@ -426,3 +426,6 @@ BOOST_FOREACH(auto i, {1, 2, 3})
 }
 
 LooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongReturnType LoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongFunctionDeclaration();
+
+// veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLoooooooooooooooooooooooooooooongComment with plenty of information
+/* second veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLoooooooooooooooooooooooooooooongComment with plenty of information */
