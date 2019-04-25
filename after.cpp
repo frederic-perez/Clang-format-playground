@@ -464,3 +464,6 @@ LoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongFunctionDeclarati
 // information
 /* second veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLoooooooooooooooooooooooooooooongComment with plenty of
  * information */
+
+(int)i;
+(int)i;

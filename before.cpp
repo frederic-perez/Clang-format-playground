@@ -346,7 +346,7 @@ if (a)
 
 switch (a)
 {
-    case 1: 
+    case 1:
         x = 1; break;
     case 2: return;
 }
@@ -381,7 +381,7 @@ template <typename T> T foo(int aaaaaaaaaaaaaaaaaaaaa,
                             int bbbbbbbbbbbbbbbbbbbbb) {}
 
 class Foo
-: Base1, Base2 
+: Base1, Base2
 {
 
 };
@@ -429,3 +429,6 @@ LooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongReturnType Loo
 
 // veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLoooooooooooooooooooooooooooooongComment with plenty of information
 /* second veryVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLoooooooooooooooooooooooooooooongComment with plenty of information */
+
+(int) i;
+(int)i;
