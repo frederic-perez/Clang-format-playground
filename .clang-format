@@ -85,9 +85,9 @@ PointerAlignment: Left # [Stroustrup-2013, p. 49]
 ReflowComments: true
 SortIncludes: true
 SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: true
 SpacesBeforeTrailingComments: 1 # [Martin-2009, p. 18, 24, 56...]
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
-# SpaceAfterTemplateKeyword: true
 # SpaceBeforeAssignmentOperators: true
 # SpaceBeforeCpp11BracedList: false
 # SpaceBeforeCtorInitializerColon: true

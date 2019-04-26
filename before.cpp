@@ -375,6 +375,8 @@ aaaa = "bbbb"
 
 template <typename T> T foo() {}
 
+template<typename T> T baz() {}
+
 template <class T> T bar() {}
 
 template <typename T> T foo(int aaaaaaaaaaaaaaaaaaaaa,

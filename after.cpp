@@ -413,6 +413,11 @@ T
 foo()
 {}
 
+template <typename T>
+T
+baz()
+{}
+
 template <class T>
 T
 bar()
