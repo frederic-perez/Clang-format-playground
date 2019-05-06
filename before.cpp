@@ -434,3 +434,5 @@ LooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongReturnType Loo
 
 (int) i;
 (int)i;
+
+cont int k=1;
