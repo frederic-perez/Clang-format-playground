@@ -436,3 +436,8 @@ LooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooongReturnType Loo
 (int)i;
 
 cont int k=1;
+
+Foo foo { bar };
+Foo {};
+vector<int> { 1, 2, 3 };
+new int[3] { 1, 2, 3 };
