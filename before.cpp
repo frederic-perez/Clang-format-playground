@@ -443,3 +443,5 @@ vector<int> { 1, 2, 3 };
 new int[3] { 1, 2, 3 };
 
 Foo::Foo(): a(a) {}
+
+class Foo: Bar {}
