@@ -446,7 +446,7 @@ Foo::Foo(): a(a) {}
 
 class Foo: Bar {}
 
-void() {
+void k() {
   if(true) {
     f ();
     g (x, y, z);
