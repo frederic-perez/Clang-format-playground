@@ -445,3 +445,10 @@ new int[3] { 1, 2, 3 };
 Foo::Foo(): a(a) {}
 
 class Foo: Bar {}
+
+void() {
+  if(true) {
+    f ();
+    g (x, y, z);
+  }
+}
