@@ -494,3 +494,6 @@ k()
     g(x, y, z);
   }
 }
+
+for (auto v : values) {
+}
