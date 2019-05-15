@@ -497,3 +497,12 @@ k()
 
 for (auto v : values) {
 }
+
+void
+f()
+{
+  int x[] = {foo(), bar()};
+  if (true) {
+    f();
+  }
+}

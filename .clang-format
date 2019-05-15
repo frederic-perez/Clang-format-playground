@@ -94,7 +94,7 @@ SpaceBeforeCtorInitializerColon: true
 SpaceBeforeInheritanceColon: true
 SpaceBeforeParens: ControlStatements
 SpaceBeforeRangeBasedForLoopColon: true
-# SpaceInEmptyParentheses: false
+SpaceInEmptyParentheses: false
 # SpacesBeforeTrailingComments: 1
 # SpacesInAngles:  false
 # SpacesInContainerLiterals: true
