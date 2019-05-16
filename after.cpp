@@ -506,3 +506,11 @@ f()
     f();
   }
 }
+
+void
+f()
+{
+  if (true) { // foo1
+    f(); // bar
+  } // foo
+}
