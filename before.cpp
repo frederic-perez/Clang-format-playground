@@ -467,3 +467,6 @@ void f() {
     f();// bar
   }// foo
 }
+
+static_cast< int >(arg);
+std::function< void(int) > fct;
