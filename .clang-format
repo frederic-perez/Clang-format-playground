@@ -96,7 +96,7 @@ SpaceBeforeRangeBasedForLoopColon: true
 SpaceInEmptyParentheses: false
 SpacesBeforeTrailingComments: 1
 SpacesInAngles: false # [Stroustrup-2013, p. 41; Meyers-2014, p. 17; Pohl-2002, p. 39]
-# SpacesInContainerLiterals: true
+SpacesInContainerLiterals: true
 # SpacesInCStyleCastParentheses: false
 # SpacesInParentheses: false
 # SpacesInSquareBrackets: false
