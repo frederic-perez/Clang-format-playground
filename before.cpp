@@ -475,3 +475,6 @@ var arr = [ 1, 2, 3 ];
 var arr = [1, 2, 3];
 f({a : 1, b : 2, c : 3};
 f({a: 1, b: 2, c: 3});
+
+const auto x = ( int32 )y;
+const auto x = (int32)y;
