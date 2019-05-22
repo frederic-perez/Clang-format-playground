@@ -478,3 +478,8 @@ f({a: 1, b: 2, c: 3});
 
 const auto x = ( int32 )y;
 const auto x = (int32)y;
+
+class Foo {
+  Foo(Bar) = delete;
+  Foo( Bar ) = delete;
+}
