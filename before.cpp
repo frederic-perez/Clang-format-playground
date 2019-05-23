@@ -483,3 +483,6 @@ class Foo {
   Foo(Bar) = delete;
   Foo( Bar ) = delete;
 }
+
+int a[ 5 ];
+int a[5];
