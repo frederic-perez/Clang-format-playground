@@ -100,7 +100,7 @@ SpacesInContainerLiterals: true
 SpacesInCStyleCastParentheses: false # Doesn't seem to have any effect using clang-format 8.0.0 :(
 SpacesInParentheses: false
 SpacesInSquareBrackets: false # Doesn't seem to have any effect using clang-format 8.0.0 :(
-# Standard: Cpp11
+Standard: Cpp11 # Doesn't seem to have any effect using clang-format 8.0.0 :(
 # TabWidth: 2 # We don't need this because we set UseTab to Never
 # UseTab: Never
 ...

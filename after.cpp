@@ -533,3 +533,6 @@ class Foo {
 
 int a[ 5 ];
 int a[5];
+
+ A<A<int> > a;
+ A<A<int>> a;
