@@ -536,3 +536,5 @@ int a[5];
 
  A<A<int> > a;
  A<A<int>> a;
+
+		TwoTabs two_tabs;
