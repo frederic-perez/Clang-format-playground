@@ -491,3 +491,19 @@ int a[5];
  A<A<int>> a;
 
 		TwoTabs two_tabs;
+
+std::cout
+  << "  --input-double " << inputDouble << '\n'
+  << "  --input-positive-double " << inputPositiveDouble << '\n';
+
+{
+  std::cout
+    << "  --input-double " << inputDouble << '\n'
+    << "  --input-positive-double " << inputPositiveDouble << '\n';
+}
+
+void func() {
+    return some_func(some_variables)
+        << "aaaaaaaaaaaaaaasssssssssssssssaaaaaaaaaaaaaaaaaa"
+        << "asdaaasssssssss";
+}
