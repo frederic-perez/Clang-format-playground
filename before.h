@@ -2,16 +2,16 @@
 
 template<class T> std::string TypeNameENH() { return ""; }
 
-template<class T> std::string TypeNameENH() /* Comment here */ { return ""; }
+template<class T> std::string TypeNameENH() /* DO NOT comment here */ { return ""; }
 
-template<class T> std::string TypeNameENH() // Comment here
+template<class T> std::string TypeNameENH() // DO NOT comment here
 { return ""; }
 
 template<class T> std::string
-TypeNameENH() // Comment here
+TypeNameENH() // DO NOT comment here
 { return ""; }
 
-// Comment above
+// Comment above is perfectly fine
 //
 template<class T> std::string
 TypeNameENH()

@@ -8,24 +8,24 @@ TypeNameENH()
 }
 
 template <class T>
-std::string TypeNameENH() /* Comment here */
+std::string TypeNameENH() /* DO NOT comment here */
 {
   return "";
 }
 
 template <class T>
-std::string TypeNameENH() // Comment here
+std::string TypeNameENH() // DO NOT comment here
 {
   return "";
 }
 
 template <class T>
-std::string TypeNameENH() // Comment here
+std::string TypeNameENH() // DO NOT comment here
 {
   return "";
 }
 
-// Comment above
+// Comment above is perfectly fine
 //
 template <class T>
 std::string
