@@ -8,14 +8,14 @@ AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: DontAlign
 AlignOperands: false
 AlignTrailingComments: false
-# AllowAllArgumentsOnNextLine: true # clang-format version 8.0.0 > error: unknown key
-# AllowAllConstructorInitializersOnNextLine: false # clang-format version 8.0.0 > error: unknown key
+# AllowAllArgumentsOnNextLine: true # clang-format version 8.0.0 > error: unknown key -- new in 9.0.0
+# AllowAllConstructorInitializersOnNextLine: false # clang-format version 8.0.0 > error: unknown key -- new in 9.0.0
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: false # Ease debugging (setting breakpoints)
 AllowShortCaseLabelsOnASingleLine: true # [Pohl-2002, p. 428]
 AllowShortFunctionsOnASingleLine: InlineOnly
 AllowShortIfStatementsOnASingleLine: false # Ease debugging (setting breakpoints)
-# AllowShortLambdasOnASingleLine: Empty # clang-format version 8.0.0 > error: unknown key
+# AllowShortLambdasOnASingleLine: Empty # clang-format version 8.0.0 > error: unknown key -- new in 9.0.0
 AllowShortLoopsOnASingleLine: false # Ease debugging (setting breakpoints)
 # AlwaysBreakAfterDefinitionReturnType: ... # Unused on purpose because it is a deprecated option
 AlwaysBreakAfterReturnType: TopLevelDefinitions
