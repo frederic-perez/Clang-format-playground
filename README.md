@@ -18,6 +18,7 @@ Some interesting URLs:
 
 - [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) documentation, and its [Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 - [clangformat.com](https://clangformat.com/), an interactive guide and builder
+- Interactive [clang-format configurator](https://zed0.co.uk/clang-format-configurator/) ([GitHub repo](https://github.com/zed0/clang-format-configurator))
 
 Material cited within `.clang-format` (or within this README file), sorted alphabetically by reference label:
 
