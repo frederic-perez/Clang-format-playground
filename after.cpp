@@ -1,20 +1,25 @@
+#include "before.h"
+#include "a.h"
+#include "c.h"
+
 #include <algorithm>
 #include <array>
 #include <cmath>
 #include <iostream>
 #include <numeric>
 
-#include <lib/bar.h>
-#include <lib/foo.h>
+#include <boost/bar.h>
+#include <boost/foo.h>
 
 #include "aux-raw-compiler-warnings-off++begin.h"
 // clang-format off
-
   #include <boost/math/constants/constants.hpp>
-
 // clang-format on
 #include "aux-raw-compiler-warnings-off++end.h"
 
+#include "c.h"
+#include "before.h"
+#include "a.h"
 #include "euclidean.h"
 #include "aux-spy.h"
 #include "aux-raw.h"
