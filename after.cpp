@@ -17,12 +17,12 @@
 // clang-format on
 #include "aux-raw-compiler-warnings-off++end.h"
 
-#include "c.h"
-#include "before.h"
 #include "a.h"
-#include "euclidean.h"
-#include "aux-spy.h"
 #include "aux-raw.h"
+#include "aux-spy.h"
+#include "before.h"
+#include "c.h"
+#include "euclidean.h"
 
 #if FOO
 #  if BAR

@@ -8,19 +8,22 @@ TypeNameENH()
 }
 
 template <class T>
-std::string TypeNameENH() /* DO NOT comment here */
+std::string
+TypeNameENH() /* DO NOT comment here */
 {
   return "";
 }
 
 template <class T>
-std::string TypeNameENH() // DO NOT comment here
+std::string
+TypeNameENH() // DO NOT comment here
 {
   return "";
 }
 
 template <class T>
-std::string TypeNameENH() // DO NOT comment here
+std::string
+TypeNameENH() // DO NOT comment here
 {
   return "";
 }
