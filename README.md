@@ -9,7 +9,7 @@ Clang-format is a tool to automatically format C++ code (and other programming l
 I simply do this loop:
 
 - Edit `.clang-format` to revise or extend it
-- Use it: `$ clang-format.exe before.cpp >after.cpp; clang-format.exe before.h >after.h`
+- Use it: `$ clang-format.exe before.cpp >after.cpp; clang-format.exe before.hpp >after.hpp`
 - Verify the expected differences between `before.cpp` and `after.cpp` (for example, with `p4merge`)
 
 ## Reference material
